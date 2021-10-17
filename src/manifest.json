@@ -1,0 +1,22 @@
+{
+  "name": "NflxIntroSkip (Netflix Intro Skip)",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "description": "A browser extension to automatically skip Netflix intros",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" },
+  "host_permissions": [
+    "https://www.netflix.com/watch/*",
+    "https://assets.nflxext.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.netflix.com/*"],
+      "js": ["content.min.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
