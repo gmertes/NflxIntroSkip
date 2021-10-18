@@ -1,4 +1,4 @@
-// wraper console.xxx() to add prefix
+// wrap console.xxx() to add prefix
 const prefix = 'NflxIntroSkip>';
 const console = {
   log: (...args) => window.console.log(prefix, ...args),

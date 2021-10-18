@@ -1,6 +1,6 @@
 {
   "name": "NflxIntroSkip",
-  "description": "A browser extension to automatically skip Netflix show intros",
+  "description": "Automatically skip intros in the Netflix web-player",
   "author": "Gert Mertes",
   "version": "1.0.0",
   "license": "MIT",

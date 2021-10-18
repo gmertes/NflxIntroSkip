@@ -1,4 +1,4 @@
-Netflix Intro Skip (NflxIntroSkip)
+NflxIntroSkip (Netflix Intro Skip)
 -------------
 A browser extension that does one thing and one thing only: automatically skip show intros on Netflix. 
 
@@ -24,14 +24,14 @@ npm run build
 
 How it works
 ------
-The extension works as a content-script that monitors changes in the DOM using `MutationObserver` and looks for the appearance of the Skip Intro button. If it finds it, it evokes `click()` on it. That's it. 
+The extension works as a content-script that monitors changes in the DOM using `MutationObserver` and looks for the appearance of the Skip Intro button. If it finds it, it evokes `click()` on it.
 
-Typicaly the Skip Intro button will appear in the DOM before it is visible on screen, so the intro may be skipped before you even see the button.
+Note that means that it does not matter if the intro is started organically, or if you time skip into it. In both cases the extension will skip it as soon as the Skip Intro button appears. There's no mechanic to only skip the intro once per playback. 
 
 Notes
 ------
-- If Netflix doesn't show the Skip Intro button, the extension can't click on it. This will be the case if you play the first episode of a show. For subsequent episodes the button will typically appear and the extension will work normally.
+- If Netflix doesn't show the Skip Intro button, the extension can't click on it. This will be the case for shows with short intros, or if you play the first episode of a show. For subsequent episodes the button will typically appear and the extension will work normally.
 - The extension works fine alongside other Netflix-enhancing extensions (such as [NflxMultiSubs](https://github.com/gmertes/NflxMultiSubs)).
 - It should work for all languages.
-- I made this extension because I have no need for all the other functions that other extensions provide, I just wanted something that skips intros. It is therefore highly unlikely that I will add additional functionality to this extension.
+- I made this extension because I have no need for all the extra functions that other extensions provide, I just wanted something that skips intros. It is therefore highly unlikely that I will add additional functionality to this extension.
 - If it doesn't work, please open an Issue and provide as much details as you can.
