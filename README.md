@@ -1,6 +1,6 @@
-NflxIntroSkip (Netflix Intro Skip)
--------------
-A browser extension that does one thing and one thing only: automatically skip show intros on Netflix. 
+<img src="src/icon48.png" height="30"/> NflxIntroSkip (Netflix Intro Skip)
+===============
+A browser extension that does one thing and one thing only: automatically skip show intros on Netflix.
 
 Compatible with Chrome and Firefox.
 
@@ -11,6 +11,8 @@ Features
 - Extremely small footprint and zero overhead, only contains the absolute bare minimum to perform its function
 - No analytics
 - Free and open source
+
+<img src="https://user-images.githubusercontent.com/13658335/137937353-ba20b0c9-fca9-4b6d-9000-d4df15cc056f.png" height="150"/>
 
 Build
 ------------
@@ -24,9 +26,9 @@ npm run build
 
 How it works
 ------
-The extension works as a content-script that monitors changes in the DOM using `MutationObserver` and looks for the appearance of the Skip Intro button. If it finds it, it evokes `click()` on it.
+The extension works as a content-script that monitors changes in the DOM using `MutationObserver` and looks for the appearance of the Skip Intro button. If it finds it, it evokes `click()` on it. There's a tiny delay to show the "Skipping..." text on the button to fancy it up a bit.
 
-Note that means that it does not matter if the intro is started organically, or if you time skip into it. In both cases the extension will skip it as soon as the Skip Intro button appears. There's no mechanic to only skip the intro once per playback. 
+Note that means that it does not matter if the intro is started organically, or if you time skip into it. In both cases the extension will skip it as soon as the Skip Intro button appears. There's no mechanic to only skip the intro once per playback.
 
 Notes
 ------
