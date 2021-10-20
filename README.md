@@ -2,7 +2,9 @@
 ===============
 A browser extension that does one thing and one thing only: automatically skip show intros on Netflix.
 
-Compatible with Chrome and Firefox.
+Install the extension from the Chrome or Firefox web store:
+
+[<img src="https://user-images.githubusercontent.com/13658335/138086366-8deee659-16c3-4621-b3f0-eaf4cb6ed9ba.png" height="60"/>](https://addons.mozilla.org/en-GB/firefox/addon/nflxintroskip/)
 
 Features
 ---------
