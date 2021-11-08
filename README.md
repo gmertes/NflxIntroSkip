@@ -1,5 +1,9 @@
 <img src="src/icon48.png" height="30"/> NflxIntroSkip (Netflix Intro Skip)
 ===============
+![Chrome users](https://img.shields.io/chrome-web-store/users/jiindpkmmoompocmhgnfabfhlhniolpl?label=Chrome%20users)
+![Firefox users](https://img.shields.io/amo/users/nflxintroskip?label=Firefox%20users)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=5GY9A82PFY38W&no_recurring=1&currency_code=EUR)
+
 A lightweight browser extension that does one thing and one thing only: automatically skip show intros on Netflix.
 
 Install the extension from the Chrome or Firefox web store:
@@ -15,7 +19,7 @@ Features
 - No analytics
 - Free and open source
 
-<img src="https://user-images.githubusercontent.com/13658335/137937353-ba20b0c9-fca9-4b6d-9000-d4df15cc056f.png" height="150"/>
+<img src="https://user-images.githubusercontent.com/13658335/137937353-ba20b0c9-fca9-4b6d-9000-d4df15cc056f.png" alt="screenshot" height="150"/>
 
 Build
 ------------
@@ -39,4 +43,16 @@ Notes
 - The extension works fine alongside other Netflix-enhancing extensions (such as [NflxMultiSubs](https://github.com/gmertes/NflxMultiSubs)).
 - It should work for all languages.
 - I made this extension because I have no need for all the extra functions that other extensions provide, I just wanted something that skips intros. It is therefore highly unlikely that I will add additional functionality to this extension.
-- If it doesn't work, please open an Issue and provide as much details as you can.
+- If it doesn't work, please open an Issue.
+
+Donate
+----
+The extension is and will remain free. If you like and want to support my work, donations are welcome.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=5GY9A82PFY38W&no_recurring=1&currency_code=EUR)
+
+BTC: `bc1qx8duq3526zhc2md724ym70qgd4wgadj5dqfuvr`
+
+ETH: `0x02635a2ef80887B0AEBa5a8282AeFAEA401DFCf9`
+
+XLM: `GB5Y7TVH7OBI7MFAT26RZ4TCZRDMVNWXLQH3LPTI2RRB22PRHSDR25BH`
