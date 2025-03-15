@@ -22,5 +22,10 @@
   "content_security_policy": {},
   "host_permissions": [
     "https://www.netflix.com/*"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{299ffd78-6e92-4b69-8fbc-0596bc243c23}"
+    }
+  }
 }
